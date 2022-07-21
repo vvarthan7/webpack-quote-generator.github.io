@@ -2479,7 +2479,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function generateQuote() {
   axios__WEBPACK_IMPORTED_MODULE_0___default().get('https://type.fit/api/quotes').then(function (res) {
-    document.getElementById('quote').innerHTML = res.data[Math.floor(Math.random() * 6) + 1].text;
+    document.getElementById('quote').innerHTML = res.data[Math.floor(Math.random() * (1000 - 1) + 1)].text;
   });
 }
 
@@ -3165,4 +3165,4 @@ quoteBtn.addEventListener('click', _generateQuote__WEBPACK_IMPORTED_MODULE_0__["
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle.41aea308140572f1d791.js.map
+//# sourceMappingURL=bundle.5f4c7b3291f69d4014f9.js.map
