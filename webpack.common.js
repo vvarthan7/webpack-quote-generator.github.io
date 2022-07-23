@@ -3,15 +3,8 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 //const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-  mode: 'development',
   entry: {
     bundle: path.resolve(__dirname, 'src/index.js')
-  },
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[contenthash].js',
-    clean: true,
-    assetModuleFilename: '[name][ext]'
   },
   devtool: 'source-map',
   devServer: {
