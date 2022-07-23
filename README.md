@@ -36,8 +36,10 @@ Builds the app for production to the `dist` folder.\
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-** Demo App **
+**Demo App**
+
 The demo app is a very simple Quotes generator. Replace with your own code and install other packages as needed
+
 
 index.js (main javascript)
 generateQuote.js (axios operation to fetch Quotes)
